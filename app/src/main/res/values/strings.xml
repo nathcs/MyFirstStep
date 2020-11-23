@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myfirststep</string>
+    <string name="created_by_nathalia_c_santos">Created By: Nathalia C Santos</string>
+    <string name="quero_ser_au_pair">Quero ser Au Pair</string>
+    <string name="valores">Valores</string>
+    <string name="requisitos">Requisitos</string>
+    <string name="agencias">Agencias</string>
+    <string name="primeiros_passos">Primeiros Passos</string>
+</resources>
