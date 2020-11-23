@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Myfirststep">
         <activity android:name=".becomeAuPairPage">
-            <user-permission android:name="android.permission.INTERNET"/>
         </activity>
         <activity android:name=".valuesPage" />
         <activity android:name=".requirementsPage" />
