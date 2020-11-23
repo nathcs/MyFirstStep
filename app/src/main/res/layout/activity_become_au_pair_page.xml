@@ -13,20 +13,21 @@
         android:gravity="start"
         android:padding="20dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/ib_cc"
             android:src="@mipmap/cc"
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:layout_marginTop="30dp" />
-        <ImageButton
+            android:layout_marginTop="30dp"
+            />
+        <ImageView
             android:id="@+id/ib_apia"
             android:src="@mipmap/apia"
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:layout_marginTop="50dp"
             />
-        <ImageButton
+        <ImageView
             android:id="@+id/ib_apc"
             android:src="@mipmap/apc"
             android:layout_width="160dp"
@@ -42,21 +43,21 @@
         android:gravity="end"
         android:padding="20dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/ib_stb"
             android:src="@mipmap/stb"
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:layout_marginTop="30dp"
             />
-        <ImageButton
+        <ImageView
             android:id="@+id/ib_ie"
             android:src="@mipmap/ie"
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:layout_marginTop="50dp"
             />
-        <ImageButton
+        <ImageView
             android:id="@+id/ib_exp"
             android:src="@mipmap/exp"
             android:layout_width="160dp"
