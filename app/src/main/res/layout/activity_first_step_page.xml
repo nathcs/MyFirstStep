@@ -6,4 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".firstStepPage">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/primeiros_passos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="texto longo"
+                android:textAlignment="textStart"/>
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

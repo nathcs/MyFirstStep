@@ -13,11 +13,11 @@ public class agenciesPage extends AppCompatActivity {
     }
 
     /**
-     * ----------------------------------------------------------------
+     * -----------------------------------------------------------------
      * THIS PAGE WILL FOLLOW THE SAME PATH AS THE "BECOME AU PAIR PAGE"
-     * ----------------------------------------------------------------
+     * -----------------------------------------------------------------
      * USE THE SAME XML LAYOUT AND IMAGES
-     * ----------------------------------------------------------------
+     * -----------------------------------------------------------------
      * THE LINKS WILL LEAD TO:
      * OPTION 01: ANOTHER ACTIVITY EXPLAINING ABOUT THE AGENCY
      * OPTION 02: THE AGENCY WEBPAGE WHERE IS EXPLAINED ABOUT THE AGENCY ITSELF
