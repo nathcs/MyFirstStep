@@ -29,8 +29,8 @@ public class firstStepPage extends AppCompatActivity {
     /*
     * block of code extracted from website below
     * https://learnwithnitish.wordpress.com/2016/05/08/read-text-file-and-display-on-textview/
-    * fuction 'raw' in red
-    * meaning is still unkown
+    * function 'raw' in red
+    * meaning is still unknown
     * happy that it worked.
     * ----------------------------------------
     * will work on the proper text later
@@ -45,8 +45,7 @@ public class firstStepPage extends AppCompatActivity {
     private void buscarTexto() throws FileNotFoundException {
         texto = findViewById(R.id.primeiros_passos);
 
-        InputStream inputStream = getResources().openRawResource(R.raw.test);
-        //InputStream inputStream = openFileInput("test.txt");
+        InputStream inputStream = getResources().openRawResource(R.raw.first_step);
 
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
@@ -59,7 +58,7 @@ public class firstStepPage extends AppCompatActivity {
             }
             inputStream.close();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+            //TODO Auto-generated catch block
             e.printStackTrace();
         }
         texto.setText(byteArrayOutputStream.toString());

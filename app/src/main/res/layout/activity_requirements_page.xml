@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".requirementsPage">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:paddingStart="30dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Requisitos"
+                android:textSize="17pt"
+                android:textStyle="bold"
+                android:textColor="#92b86e"
+                android:paddingBottom="20dp"
+                />
+
+                <TextView
+                    android:id="@+id/text_requisitos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12pt"
+                    android:text="Example"
+                    android:textAlignment="textStart"
+                    />
+        </LinearLayout>
+    </ScrollView>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
