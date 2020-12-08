@@ -13,13 +13,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:paddingStart="20dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sobre o Au Pair"
+                android:textSize="17pt"
+                android:textStyle="bold"
+                android:textColor="#92b86e"
+                android:paddingBottom="20dp"
+                />
 
             <TextView
                 android:id="@+id/primeiros_passos"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="texto longo"
+                android:text="Example"
+                android:textSize="11pt"
                 android:textAlignment="textStart"/>
 
         </LinearLayout>
