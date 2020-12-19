@@ -6,4 +6,154 @@
     android:layout_height="match_parent"
     tools:context=".valuesPage">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Você tem carteira de motorista?"
+                android:textSize="35dp"
+                />
+            <RadioGroup
+                android:id="@+id/radioGroup01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <RadioButton
+                    android:id="@+id/radioYes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:textSize="25dp"
+                    />
+                <RadioButton
+                    android:id="@+id/radioNo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Não"
+                    android:textSize="25dp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Você possui um passaporte válido?"
+                android:textSize="35dp"
+                />
+            <RadioGroup
+                android:id="@+id/radioGroup02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <RadioButton
+                    android:id="@+id/radioYes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:textSize="25dp"
+                    />
+                <RadioButton
+                    android:id="@+id/radioNo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Não"
+                    android:textSize="25dp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Você mora em São Paulo ou nas proximidades da cidade?"
+                android:textSize="35dp"
+                />
+            <RadioGroup
+                android:id="@+id/radioGroup03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <RadioButton
+                    android:id="@+id/radioYes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:textSize="25dp"
+                    />
+                <RadioButton
+                    android:id="@+id/radioNo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Não"
+                    android:textSize="25dp"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Você conseguiu o desconto da agência?"
+                android:textSize="35dp"
+                />
+            <RadioGroup
+                android:id="@+id/radioGroup04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <RadioButton
+                    android:id="@+id/radioYes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:textSize="25dp"
+                    />
+                <RadioButton
+                    android:id="@+id/radioNo4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Não"
+                    android:textSize="25dp"
+                    />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="25dp"
+                android:layout_marginStart="150dp"/>
+
+            <TextView
+                android:id="@+id/finalResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25dp"
+                android:paddingTop="50dp"
+                android:textAlignment="center"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -42,7 +42,7 @@ public class requirementsPage extends AppCompatActivity {
             }
             inputStream.close();
         } catch (IOException e) {
-            //TODO Auto-generated catch block
+            System.out.print("We're sorry! The file was not found :/");
             e.printStackTrace();
         }
         requisitos.setText(byteArrayOutputStream.toString());
